@@ -1,0 +1,230 @@
+<!-- index.html                              -->
+<!--                                         -->
+<!-- source file for personal website        -->
+<!--                                         -->
+<!-- Samuel Rohrer                           -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8"/>
+    <link rel="shortcut icon" href="images/crest.ico" />
+    <title>Samuel Rohrer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap_3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- *********** Google Analytics tracker *********** -->
+    <script>
+      (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] ||
+      function() {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+      a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+      })
+      (window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-80135616-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+  <!-- ********************** Navbar ******************* -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <a class="navbar-brand" href="#home"><i class="fa fa-home fa-lg"></i></a>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div id="navbar" class="navbar-collapse collapse navHeaderCollapse">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="#papers"><i class="fa fa-file-o fa-lg"></i>
+             Publications</a></li>
+          <li class=""><a href="#projects"><i class="fa fa-th-list fa-lg">
+             </i> Projects</a></li>
+          <li class=""><a href="https://scholar.google.com/citations?hl=en&user=TeTdbWsAAAAJ">
+            <i class="fa fa-graduation-cap fa-lg"></i></a></li>
+          <li class=""><a href="https://github.com/srohrer32">
+            <i class="fa fa-github-square fa-lg"></i></a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <a id="home"></a>
+
+  <!-- *************** Body ***************** -->
+  <div class="jumbotron">
+    <div class="container" style="text-align: center;">
+      <br><br><br><br><br>
+      <h1> Samuel Rohrer </h1>
+      <br>
+    </div>
+  </div>
+
+  <!-- *************** Papers ***************** -->
+  <div class="container">
+    <a id="papers"></a>
+    <div class="clearfix"></div>
+    <br><br>
+    <hr class="featurette-divider">
+    <h2> Publications </h2>
+    <div class="container">
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/signpost.png" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">The Signpost Platform for City-Scale Sensing</h4>
+          <p>The Signpost platform can be mounted to any sign post, harvest
+             solar energy, and provide the key services for their pluggable
+             sensor modules to perform sensing tasks. To enable multiple
+             non-aligned sensor modules to operate within the resource
+             constraints of the system, Signposts meter resource utilization
+             and isolate sensor modules that use over their fair share.
+          </p>
+          <p>Joshua Adkins, Branden Ghena, Neal Jackson, Pat Pannuto,
+              Samuel Rohrer, Bradford Campbell, and Prabal Dutta.<br>
+          <i>Proceedings of the 17th ACM/IEEE International Conference
+            on Information Processing in Sensor Networks (IPSN’18).</i>
+          <a href="https://lab11.eecs.umich.edu/content/pubs/adkins18signpost.pdf">
+              [paper]</a>
+          <a href="https://lab11.eecs.umich.edu/projects/signpost/">[website]</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- *************** Projects ***************** -->
+    <a id="projects"></a>
+    <div class="clearfix"></div>
+    <br><br>
+    <hr class="featurette-divider">
+    <h2> Projects </h2>
+    <div class="container">
+
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/xray_ct.png" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">X-ray Computed Tomography using the Julia Language</h4>
+          <p>Worked to implement key portions of the
+            <a href="https://web.eecs.umich.edu/~fessler/code/index.html">Michigan
+            Image Reconstruction Toolbox</a> in the Julia language.
+            Implemented <samp>MIRT_fatrix2{T&lt;:Number}</samp> Julia
+            type as an extension of the <samp>AbstractArray</samp> interface
+            to call shared C library code for forward (<samp>A*x</samp>)
+            and backward (<samp>A'*y</samp>) projection.
+          <strong>(Fall 2017)</strong>
+          <a href="files/ct_julia.pdf">[poster]</a>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/eecs351.png" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Speaker Diarization using MFCCs</h4>
+          <p> Final project website for EECS351. Performed speaker diarization
+              using Mel Frequency Cepstrum Coefficients (MFCCs) and Mahalanobis
+              distance. Also explored envelope features and kth nearest
+              neighbor algorithms.
+              <strong>(Fall 2016)</strong>
+              <a href="https://srohrer32.github.io/eecs351project/">[website]</a>
+              <a href="https://github.com/srohrer32/eecs351project">[<code>eecs351project repo</code>]</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/eecs442.png" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Pedestrian Detection Using Lidar</h4>
+          <p> Final paper written for EECS442 class. Used correlated Lidar and image 
+          dataset to identify pedestrians through segmentation, feature extraction, 
+          classification, and filtering.
+          <strong>(Fall 2016)</strong>
+          <a href="files/eecs442.pdf">[paper]</a>
+          <a href="https://github.com/ianlin123/lidar-img-objectDetection">
+            [<code>lidar-img-objectDetection repo</code>]</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/lab11.jpg" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Signpost LoRa Communications</h4>
+          <p> Was responsible for choice of the LoRa module,
+              configuration of LoRa transmission parameters, and
+              creation of a Node.JS library (<samp>iM880-serial-comm</samp>)
+              to interface with the module. <strong>(2016)</strong>
+              <a href="https://github.com/lab11/LoRa-comms">[<code>LoRa-comms repo</code>]</a>
+              <a href="https://github.com/lab11/iM880-serial-comm">[<code>iM880-serial-comm repo</code>]</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/lab11.jpg" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">SensEye-2</h4>
+          <p> Goal was real-time gaze detection
+              of a human eye using a pair of glasses with low-power cameras
+              mounted facing inward and outward. This information let the system
+              determine where the eye was looking and whether the gaze was shifting.
+              <strong>(2015-2016)</strong>
+            <a href="https://github.com/lab11/SensEye-2">[<code>SensEye-2 repo</code>]</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="media">
+        <div class="pull-left media-top">
+          <img class="img-circle" src="images/siemens_intel.jpg" alt="..." height="100" width="100">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">A Novel Beamforming Approach to Stereo Sound
+          </h4>
+          <p> Designed a new beamforming approach for near-field applications
+            (less than one meter) to create true stereo sound. Signals were
+            time-delayed in order to converge on each ear of the user and
+            create lobes of sound, instead of creating a traditional
+            beamforming wave-front. See the webpage created in 2014 for my
+            TJHSST Senior Research project and the repository with
+            the project source code. <strong>(2012-2014)</strong>
+            <a href="http://srohrer32.github.io/beamformer">[website]</a>
+            <a href="https://github.com/srohrer32/beamformer">[<code>beamformer repo</code>]</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************** Footer ********************** -->
+    <hr class="featurette-divider">
+    <footer>
+      <p class="pull-right"><a href="#top">top</a></p>
+      <p class="text-center"> Updated July 21, 2018 </p>
+    </footer>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+  </script>
+  <script src="bootstrap_3/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
