@@ -11,7 +11,4 @@ real world problems using big data.
 
 Please feel free to email me, reach out on GitHub, or check out my Toptal profile.
 
-Profile to hire me on [Toptal](https://www.toptal.com/resume/samuel-rohrer).
-
-Profile on [Google Scholar](https://scholar.google.com/citations?user=TeTdbWsAAAAJ&hl=en),
-to track citations.
+Profile on [Toptal](https://www.toptal.com/resume/samuel-rohrer). Profile on [Google Scholar](https://scholar.google.com/citations?user=TeTdbWsAAAAJ&hl=en).
