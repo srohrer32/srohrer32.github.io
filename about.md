@@ -4,6 +4,6 @@ title: Links
 permalink: /links/
 ---
 
-Profile on [Toptal](https://www.toptal.com/resume/samuel-rohrer).
+[Toptal](https://www.toptal.com/resume/samuel-rohrer)
 
-Profile on [Google Scholar](https://scholar.google.com/citations?user=TeTdbWsAAAAJ&hl=en).
+[Google Scholar](https://scholar.google.com/citations?user=TeTdbWsAAAAJ&hl=en)
