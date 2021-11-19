@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /about/
+permalink: /links/
 ---
 
 Profile on [Toptal](https://www.toptal.com/resume/samuel-rohrer).
