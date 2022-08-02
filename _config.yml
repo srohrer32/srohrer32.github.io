@@ -7,7 +7,6 @@ author: Samuel Rohrer
 email: samuel.rohrer@toptal.com
 description: >
   personal website
-logo: ./static/favicon.ico
 
 show_excerpts: false
 show_downloads: false
