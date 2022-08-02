@@ -17,7 +17,7 @@ minima:
   date_format: "%b %-d, %Y"
 
 header_pages:
-  - about.md
+  - links.md
 
 theme: minima
 
